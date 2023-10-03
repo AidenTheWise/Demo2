@@ -15,6 +15,7 @@ public class Dog {
 	private String name;
 	private int age;
 	private String color;
+	private String home;
 }
 
 public int getAge() {
@@ -31,4 +32,7 @@ public String getColor() {
 	
 	return this.color;
 }
-
+ public String getHome() {
+	 
+	 return this.home;
+ }
